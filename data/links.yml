@@ -1,0 +1,98 @@
+---
+- name: News
+  colour: blue # (a valid mdl color name)
+  sections: # A section
+  - links:
+    - title: LA Times
+      url: https://latimes.com
+    - title: NYT
+      url: https://nyt.com
+    - title: San Diego UT
+      url: https://uniontrib.com
+  - links:
+    - title: Hacker News
+      url: https://news.ycombinator.com/
+    - title: Reddit r/python
+      url: https://www.reddit.com/r/python/
+
+- name: Media
+  colour: cyan
+  sections:
+  - links:
+    - title: YouTube
+      url: https://www.youtube.com/feed/subscriptions
+    - title: YouTube TV
+      url: https://tv.youtube.com
+    - title: Netflix
+      url: https://www.netflix.com/browse
+    - title: Netflix | History
+      url: https://www.netflix.com/viewingactivity
+    - title: Sirius XM
+
+- name: Speaking
+  colour: purple
+  sections:
+  - links:
+    - title: SpeakerDeck
+      url: https://speakerdeck.com/willingc/
+    - title: SlideShare
+      url: https://slideshare.net/willingc/
+  - links:
+    - title: My YouTube Channel
+      url: https://youtube.com
+  - links:
+    - title: PyCon Argentina
+      url: https://eventos.python.org.ar/events/pyconar2018/
+    - title: PyCon Colombia
+      url: https://www.pycon.co/
+    - title: PyCon
+      url: https://us.pycon.org/2019/
+  - links:
+    - title: Unsplash photos
+      url: https://unsplash.io
+
+- name: Development
+  colour: red
+  sections:
+  - links:
+    - title: GitHub
+      url: https://github.com/willingc
+    - title: ReadTheDocs
+      url: https://readthedocs.org/dashboard/
+  - links:
+    - title: Travis CI
+      url: https://travis-ci.org/
+    - title: Circle CI
+      url: https://circleci.com/dashboard
+  - links:
+    - title: appear.in
+      url: https://appear.in/willingc/
+    - title: Google Hangouts
+      url: https://hangouts.google.com/
+    - title: zoom
+      url: https://zoom.us/signin
+
+
+
+- name: CPython
+  colour: blue
+  sections:
+  - links:
+    - title: python.org
+      url: https://python.org
+    - title: Docs
+      url: https://docs.python.org
+    - title: Dev Guide
+      url: https://devguide.python.org
+  - links:
+    - title: Faster CPython - Victor
+      url: https://faster-cpython.readthedocs.io
+
+- name: Config
+  colour: green
+  sections:
+  - links:
+    - title: macOS Setup Guide
+      url: https://sourabhbajaj.com/mac-setup/Python/
+    - title: my dotfiles
+      url: https://github.com/willingc/dotfiles
