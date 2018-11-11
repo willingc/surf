@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://willingc.github.io/surf/"
+publishDir = "docs"
 languageCode = "en-us"
 title = "longboard"
 theme = "startpage"
